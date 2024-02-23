@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Fresh Talent</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Link for icons from fontawesome -->
+    <script src="https://kit.fontawesome.com/15ab1883b3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- It is the header with logo and other links -->
+    <header>
+        <nav class="grid-container full">
+            <div class="logo">
+                <a href="index.html"><img src="./images/Fresh_Talent-Logo.png"></a>
+            </div>
+            <ul>
+                <li class="dash-link"><a href="#">Jobs</a></li>
+                <li class="dash-link"><a href="#">Saved Jobs</a></li>
+                <li class="dash-link"><a href="#">Application Tracker</a></li>
+                <li class="dash-link"><a href="#">Up-SKill</a></li>
+                <li><a href=""><i class="fa-solid fa-circle-user"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-bell"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contains the name and the resume edit options -->
+    <form class="logform grid-container grid-x">
+        <section class="log-info grid-padding-x">
+            <section class="large-4 medium-6 small-12 cell">
+                <h1 class="log-title">Profile</h1>
+                <img src="./images/avatar.png" alt="Avatar" class="avatar">
+                <label for="username">Name</label>
+                <input type="text" placeholder="John Doe">
+                <label for="mobile-number">Mobile Number</label>
+                <input type="text" placeholder="+1 (777)999-8888">
+                <label for="email-address">Email Address</label>
+                <input type="text" placeholder="johdoe@work.com">
+                <label for="location">Location</label>
+                <input type="text" placeholder="Kitchener,ON">
+                <a href="#" class="log button">Edit</a>
+            </section>
+            <!-- Resume Section -->
+            <section class="large-6 medium-6 small-12 cell">
+                <h1 class="log-title">Resume</h1>
+                <div class="resume-icon"><a href="#"><i class=" fa-regular fa-file"></i>Resume</a></div>
+                <div class="resume-icon"><a href="#"><i class=" fa-solid fa-upload"></i>Upload Resume</a></div>
+                <a href="resumeBuilder.html" class="log button">Edit</a>
+                <h1 class="log-title">Skills</h1>
+                <div class="skills-container">
+                    <div class="chip">Wireframing</div>
+                    <div class="chip">Testing</div>
+                    <div class="chip">Research</div>
+                    <div class="chip">UX Design</div>
+                </div>
+            </section>
+            <div class="logout">
+                <a href="index.html" class="hollow button secondary">Log Out</a>
+            </div>
+        </section>
+    </form>
+    </main>
+
+    <!-- Footer contains contact info -->
+    <footer>
+        <section class="grid-x">
+            <section id="r-info" class="large-6 medium-6 small-12">
+                <h1>Contact Info</h1>
+                <p><a href="mailto:info@freshtalent.com">info@freshtalent.com</a></p>
+            </section>
+
+            <section id="l-info" class="large-6 medium-6 small-12 cell">
+                <h1>Follow us on</h1>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </section>
+        </section>
+    </footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

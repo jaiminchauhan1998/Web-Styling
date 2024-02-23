@@ -1,0 +1,486 @@
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+/*Side Image used in Landing Page*/
+#sideimg {
+    width: 750px;
+    height: 490px;
+    ;
+}
+
+/*------------------ Nav Bar------------------------ */
+nav {
+    width: 100vw;
+    background-color: rgb(22, 21, 21);
+    overflow: auto;
+    display: inline-block;
+    top: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+
+}
+
+li {
+    float: right;
+}
+
+li.dash-link {
+    float: left;
+    margin-left: 60px;
+}
+
+/*-----------Font Awesome-----------------------*/
+i.fa-solid {
+    float: right;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/*-----------Logo Image-----------------------*/
+.logo img {
+    height: 40px;
+    width: 172px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+nav a {
+    width: 100px;
+    display: flex;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-style: bold;
+}
+
+nav a:hover {
+    color: #FFDD16;
+    text-decoration: underline;
+}
+
+/*-----------Center Content of the Landing Page-----------------------*/
+h1#wlcm {
+    font-size: 52px;
+    font-weight: 600;
+    padding: 16px;
+}
+
+.wlcm {
+    padding-top: 100px;
+}
+
+/*-----------Buttons-----------------------*/
+.button {
+    background-color: #FFDD16;
+    color: rgb(22, 21, 21);
+    padding: 16px 24px 16px 24px;
+    width: 256px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: rgb(22, 21, 21);
+    color: #FFDD16;
+}
+
+a.save {
+    background-color: white;
+    color: #608CFD;
+    border: solid 2px;
+    width: 156px;
+}
+
+a.save:hover {
+    background-color: #608CFD;
+    color: white;
+    width: 156px;
+}
+
+/*-----------Dashboard-----------------------*/
+.search {
+    padding: 16px;
+}
+
+.dahsboard-content {
+    padding: 16px;
+    background-color: whitesmoke;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+/*-----------Chips to Highligh main skills-----------------------*/
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    border-radius: 25px;
+    background-color: #FFDD16;
+}
+
+/*-----------Job Cards-----------------------*/
+article.job-card {
+    display: inline-block;
+    grid-template-columns: 80px auto 100px;
+    grid-template-rows: 35px 10px 35px;
+    position: relative;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    font-family: 'Helvetica';
+    padding: 24px;
+}
+
+article.job-card:hover,
+article.job-card:focus {
+    background-color: rgba(0, 166, 194, .03);
+    border-color: #b2e4ec;
+}
+
+.company-logo-img {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    height: 80px;
+    width: 80px;
+    box-sizing: border-box;
+    position: relative;
+    padding: 5px;
+}
+
+.company-logo-img img {
+    max-height: calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.side-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.job-title {
+    font-size: 16px;
+    font-weight: 600;
+    align-self: start;
+    font-weight: 600;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.company-name {
+    align-self: center;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.skills-container {
+    grid-area: 3 / 2 / 4 / 3;
+    align-self: center;
+    padding-top: 10px;
+    padding: 0 24px;
+}
+
+/*-----------Login and Sign Up page-----------------------*/
+.log-title {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 16px;
+}
+
+.logform {
+    background-color: whitesmoke;
+    padding: 16px;
+    margin: 64px;
+    border-radius: 10px;
+}
+
+.log-info {
+    padding-left: 136px;
+}
+
+.log {
+    width: 256px;
+}
+
+/*-----------Resume Builder Page-----------------------*/
+.top-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.resume-bg {
+    background-color: whitesmoke;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 36px;
+}
+
+h1.rb {
+    font-size: 42px;
+    font-weight: 600;
+    padding: 32px 0 16px 0;
+}
+
+/*-----------onboarding Page-----------------------*/
+.onboarding {
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+
+.manual {
+    background-color: transparent;
+    color: black;
+    border: solid 2px;
+}
+
+.onboard-content {
+    background-color: whitesmoke;
+    padding: 16px;
+    margin-top: 24px;
+}
+
+.onboard-side-content {
+    padding: 32px;
+}
+
+h1.onboard-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/*-----------Notifications-----------------------*/
+h1#notification {
+    font-size: 32px;
+}
+
+/*-----------Profile Page-----------------------*/
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.resume-icon {
+    font-size: 24px;
+    color: #FFDD16;
+}
+
+div .logout {
+    padding: 16px;
+}
+
+/*-----------Footer-----------------------*/
+footer {
+    background-color: rgb(22, 21, 21);
+    height: 200px;
+    width: 100%;
+    padding-left: 32px;
+    color: #FFDD16;
+    padding-top: 24px;
+}
+
+footer h1 {
+    font-size: 32px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #FFDD16;
+}
+
+.fa-brands {
+    font-size: 32px;
+    padding: 0 6px 0 6px;
+    color: white;
+}
+
+.fas {
+    font-size: 32px;
+    padding: 0 6px 0 6px;
+    color: white;
+}
+
+/*-----------Mobile Device-----------------------*/
+@media (max-width: 480px) {
+
+    /* Side Image */
+    #sideimg {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Nav Bar */
+    nav {
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    li {
+        float: none;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    li.dash-link {
+        float: none;
+        margin-left: 0;
+    }
+
+    i.fa-solid {
+        display: none;
+    }
+
+    .logo img {
+        margin: 15px auto;
+    }
+
+    nav a {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* Center Content */
+    h1#wlcm {
+        font-size: 28px;
+        padding: 12px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    a.save {
+        width: 100%;
+    }
+
+    /* Dashboard */
+    .search {
+        padding: 12px;
+    }
+
+    .dashboard-content {
+        padding: 12px;
+    }
+
+    /* Job Card */
+    article.job-card {
+        display: block;
+        padding: 12px;
+        margin: 12px 0;
+    }
+
+    .company-logo-img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .company-logo-img img {
+        max-height: 100%;
+        max-width: 100%;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .job-title {
+        font-size: 14px;
+        margin-top: 3px;
+    }
+
+    .company-name {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+
+    .skills-container {
+        padding: 5px;
+    }
+
+    /* Login and Sign Up Page */
+    .logform {
+        margin: 32px;
+    }
+
+    .log-info {
+        padding-left: 0;
+    }
+
+    .log {
+        width: 100%;
+    }
+
+    /* ResumeBuilder Page */
+    h1.rb {
+        font-size: 28px;
+        padding: 24px 0 12px 0;
+    }
+
+    /* Onboarding Page */
+    .onboarding {
+        margin-bottom: 1rem;
+    }
+
+    .manual {
+        width: 100%;
+    }
+
+    .onboard-side-content {
+        padding: 16px;
+    }
+
+    h1.onboard-title {
+        font-size: 28px;
+    }
+
+    /* Notifications */
+    h1#notification {
+        font-size: 28px;
+    }
+
+    /* Footer CSS */
+    footer {
+        padding-left: 16px;
+    }
+
+    footer h1 {
+        font-size: 28px;
+    }
+
+    .fa-brands,
+    .fas {
+        font-size: 28px;
+    }
+}

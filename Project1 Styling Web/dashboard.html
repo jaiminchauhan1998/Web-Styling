@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Fresh Talent</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Link for icons from fontawesome -->
+    <script src="https://kit.fontawesome.com/15ab1883b3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- It is the header with logo and other links -->
+    <header>
+        <nav class="grid-container full">
+            <div class="logo">
+                <a href="index.html"><img src="./images/Fresh_Talent-Logo.png"></a>
+            </div>
+            <ul>
+                <li class="dash-link"><a href="#">Jobs</a></li>
+                <li class="dash-link"><a href="#">Saved Jobs</a></li>
+                <li class="dash-link"><a href="#">Application Tracker</a></li>
+                <li class="dash-link"><a href="#">Up-SKill</a></li>
+                <li><a href=""><i class="fa-solid fa-circle-user"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-bell"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main container with job search and listing-->
+    <main class="dahsboard-content grid-container">
+        <!-- Job search option -->
+        <section class="grid-x">
+            <form action="" class="large-8 medium-8 small-8 cell">
+                <input type="text" placeholder="Search.." name="search">
+            </form>
+            <a href="#" type="submit" class="button">Submit</a>
+        </section>
+
+        <section class="grid-x">
+            <!--Job listed -->
+            <section class="large-6 small-4">
+                <!--Job 1 -->
+                <article class="job-card">
+                    <div class="company-logo-img">
+                        <img src="./images/matrixx.png" />
+                    </div>
+                    <div class="job-title">Software Engineer</div>
+                    <div class="company-name">Matrixx</div>
+                    <div class="company-location">Hybrid Canada</div>
+                    <div class="skills-container">
+                        <div class="chip">Testing</div>
+                        <div class="chip">DevOps</div>
+                        <div class="chip">Coding</div>
+                    </div>
+                </article>
+                <!--Job 2 -->
+                <article class="job-card">
+                    <div class="company-logo-img">
+                        <img src="./images/konrad.jpg" />
+                    </div>
+                    <div class="job-title">UX Researcher</div>
+                    <div class="company-name">Konrad</div>
+                    <div class="company-location">Toronto, Canada</div>
+                    <div class="skills-container">
+                        <div class="chip">Research</div>
+                        <div class="chip">Wireframing</div>
+                        <div class="chip">Interview</div>
+                    </div>
+                </article>
+                <!--Job 3 -->
+                <article class="job-card">
+                    <div class="company-logo-img">
+                        <img src="./images/td.png" />
+                    </div>
+                    <div class="job-title">UI Design</div>
+                    <div class="company-name">TD</div>
+                    <div class="company-location">Remote Canada</div>
+                    <div class="skills-container">
+                        <div class="chip">Research</div>
+                        <div class="chip">Wireframing</div>
+                        <div class="chip">Interview</div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Job description -->
+            <section class="large-6 small-8">
+                <div class="company-logo-img">
+                    <img src="./images/td.png" />
+                </div>
+                <h1 class="side-title">UX Researcher</h1>
+                <div class="skills-container">
+                    <div class="chip">Research</div>
+                    <div class="chip">Wireframing</div>
+                    <div class="chip">Interview</div>
+                </div>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchanged.</p>
+                <a href="#" class="button">Apply</a>
+                <a href="#" class="hollow button secondary">Save</a>
+                <h1 class="side-title">
+                    Requirement
+                </h1>
+                <p>Currently enrolled in degree, post-graduate study and full-time student.
+                    Demonstrate practical skills in ux design, research and interview.
+                    Currently enrolled in degree, post-graduate study and full-time student.
+                    Demonstrate practical skills in ux design, research and interview.
+                </p>
+                </ul>
+            </section>
+        </section>
+    </main>
+
+    <!-- Footer contains contact info -->
+    <footer>
+        <section class="grid-x">
+            <section id="r-info" class="large-6 medium-6 small-12">
+                <h1>Contact Info</h1>
+                <p><a href="mailto:info@freshtalent.com">info@freshtalent.com</a></p>
+            </section>
+
+            <section id="l-info" class="large-6 medium-6 small-12 cell">
+                <h1>Follow us on</h1>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </section>
+        </section>
+    </footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
